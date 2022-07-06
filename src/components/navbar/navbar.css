@@ -1,0 +1,45 @@
+.navbar{
+     width: 10%;
+     max-width: 120px;
+     background-color: black;
+     position: sticky;
+     top: 0px;
+     display: flex;
+     flex-direction: column;
+}
+
+.aside-item-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     height: 60%;
+}
+
+.aside-item{
+     background-color: white;
+     border-radius: 6px;
+     display: inline-block;
+     width: 33.33%;
+     padding: 5px;
+}
+
+.aside-item img{
+     width: 100%;
+}
+
+.copyright-container{
+     flex-grow: 1;
+     display: flex;
+     justify-content: end;
+     align-items: center;
+}
+
+.copyright{
+     color: white;
+     position: absolute;
+     bottom: 100px;
+     left: 50%;
+     transform: translateX(-50%) rotate(-90deg);
+     white-space: nowrap;
+}

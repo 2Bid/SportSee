@@ -1,0 +1,39 @@
+.header{
+     background-color: black;
+     display : flex;
+     z-index: 10;
+}
+
+.logo-container{
+     padding: 20px;
+}
+
+.logo-container img{     
+     width: 100%;
+     height: auto;
+     object-fit: cover;
+}
+
+header nav{
+     flex-grow: 1;
+     display: flex;
+     align-items: center;
+}
+
+header nav ul{
+     display: flex;
+     justify-content: space-around;
+     list-style: none;
+     color: white;
+     width: 100%;
+}
+
+header nav ul li a{
+     color: white;
+     text-decoration: none;
+     transition: 0.2s;
+}
+
+header nav ul li a:hover{
+     color: #FF0101;
+}

@@ -1,0 +1,84 @@
+.dashboard-container{
+     display: flex;
+     min-height: 90vh;
+}
+
+.dashboard{
+     padding: 30px;
+     margin-left: 50px;
+}
+
+.user-welcome{
+     margin-bottom: 50px;
+}
+
+.user-name{
+     color: red;
+}
+
+.user-data-container{
+     display: flex;
+     gap: 20px;
+}
+
+.data-graph{
+     display: flex;
+     flex-wrap: wrap;
+     width: 70%;
+}
+
+.chart-box-container{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.chart-box-container .chart-box:first-child{
+     margin-left: 0;
+}
+
+.chart-box-container .chart-box:last-child{
+     margin-right: 0;
+}
+
+.data-cardNumber{
+     width: 30%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+}
+
+@media screen and (max-width:1350px) {
+     .user-welcome{
+          margin-bottom: 30px;
+     }
+
+     .user-data-container{
+          flex-direction: column;
+     }
+
+     .data-graph,
+     .user-data-container{
+          gap: 40px;
+     }
+
+     .data-graph,
+     .data-cardNumber{
+          width: 100%;
+          flex-direction : row
+     }
+     .card{
+          justify-content: center;
+          align-items: center;
+          margin: 0 20px;
+          width: calc(25% - 40px);
+     }
+
+     .data-cardNumber .card:first-child{
+          margin-left: 0;
+     }
+
+     .data-cardNumber .card:last-child{
+          margin-right: 0;
+     }
+}
