@@ -34,9 +34,8 @@ export default function Navbar() {
 }
 
 Navbar.prototype = {
-     zenSvg : PropTypes.string.isRequired,
-     swimSvg : PropTypes.string.isRequired,
-     bikeSvg : PropTypes.string.isRequired,
-     workoutSvg : PropTypes.string.isRequired,
-
+  zenSvg : PropTypes.string.isRequired,
+  swimSvg : PropTypes.string.isRequired,
+  bikeSvg : PropTypes.string.isRequired,
+  workoutSvg : PropTypes.string.isRequired
 }

@@ -21,7 +21,7 @@ export default function Card(props) {
               <img src={props.icon} alt="icone"/>
          </div>
           <div className="card-info">
-               <b>{props.value} {props.prefixe}</b>
+               <b>{props.value}{props.prefixe}</b>
                <p>{props.title}</p>
           </div>
     </div>

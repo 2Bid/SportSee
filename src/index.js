@@ -8,7 +8,7 @@ import { MyContext } from './store/context';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-     <MyContext.Provider value={{useApi:true}}>
+     <MyContext.Provider value={{useApi:false}}>
           <App />
     </MyContext.Provider>
   </BrowserRouter>

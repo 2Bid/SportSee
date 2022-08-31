@@ -102,8 +102,8 @@ function Circlechart() {
 }
 
 CustomLabel.propTypes = {
-     viewBox : PropTypes.object,
-     currentScore : PropTypes.number
+  viewBox : PropTypes.object,
+  currentScore : PropTypes.number
 }
 
 export default Circlechart;

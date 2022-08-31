@@ -40,21 +40,21 @@ export default function Hexachart() {
   return (
     <>
     {
-         perfDataTransform.length > 0 ?
-          <div className='hexachart chart-box'>
-               <ResponsiveContainer width="100%" height="100%">
-               <RadarChart 
-                    outerRadius={70}
-                    width={0} height={0}
-                    data={perfDataTransform}>
-                    <PolarGrid radialLines={false}/>
-                    <PolarAngleAxis dataKey="kind" color='white' tickSize={10} tick={{fontSize: 12}}/>
-                    <Radar name="Mike" dataKey="value" fill="red" fillOpacity={0.6} />
-               </RadarChart>
-               </ResponsiveContainer>
-          </div>
-          :
-          <></>
+      perfDataTransform.length > 0 ?
+      <div className='hexachart chart-box'>
+            <ResponsiveContainer width="100%" height="100%">
+            <RadarChart 
+                outerRadius={70}
+                width={0} height={0}
+                data={perfDataTransform}>
+                <PolarGrid radialLines={false}/>
+                <PolarAngleAxis dataKey="kind" color='white' tickSize={10} tick={{fontSize: 12}}/>
+                <Radar name="Mike" dataKey="value" fill="red" fillOpacity={0.6} />
+            </RadarChart>
+            </ResponsiveContainer>
+      </div>
+      :
+      <></>
     }
     </>
   )

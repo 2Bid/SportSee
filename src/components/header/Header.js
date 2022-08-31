@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types';
 
 import logo from "../../images/logo.svg"
 import "./header.css"
@@ -20,4 +21,8 @@ export default function Header() {
       </nav>
     </header>
   )
+}
+
+Header.prototype = {
+  logo : PropTypes.string.isRequired
 }
