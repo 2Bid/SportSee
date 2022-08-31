@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "./p404.css"
 
 /**
- * Composant générant la page 404
+ * Component for Error404 Page
  * @returns {React.Component}
  */
 export default function P404() {

@@ -5,7 +5,7 @@ import { useLoadPerfData } from '../../../hooks/loadPerfData'
 import { RadarChart, PolarGrid,PolarAngleAxis,Radar, ResponsiveContainer } from 'recharts';
 
 /**
- * Composant graphique permettant d'affiché les score associé a différents domaine sous forme de radarChart
+ * Graphic component used to display score according to activity concerned into radarchart
  * @returns {React.Component}
  */
 export default function Hexachart() {

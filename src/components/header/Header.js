@@ -5,6 +5,10 @@ import PropTypes from 'prop-types';
 import logo from "../../images/logo.svg"
 import "./header.css"
 
+/**
+ * Header component
+ * @returns {React.Component}
+ */
 export default function Header() {
   return (
     <header className='header'>

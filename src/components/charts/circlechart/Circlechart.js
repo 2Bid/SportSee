@@ -40,7 +40,7 @@ const CustomLabel = ({ viewBox, currentScore = 0 }) => {
 };
 
 /**
- * Composant graphique utilisé pour réprésenté le pourcentage du score journalier sous forme de cercle
+ * Graphic component used to display percent score data from mainData
  * @returns {React.Component}
  */
 function Circlechart() {

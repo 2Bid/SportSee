@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import "./card.css"
 
 /**
- * Composant qui affiche les informations sur les types des nutriments brûlées
+ * Component who display informations about nutrients burns
  * @param {{
  *   value : number,
  *   title : string,

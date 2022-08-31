@@ -9,6 +9,10 @@ import swimSvg from "../../images/swim.svg"
 import bikeSvg from "../../images/bike.svg"
 import workoutSvg from "../../images/workout.svg"
 
+/**
+ * Navbar component
+ * @returns {React.Component}
+ */
 export default function Navbar() {
   return (
     <aside className='navbar'>

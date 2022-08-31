@@ -19,7 +19,10 @@ function CustomTooltip({ payload, active }) {
 		return null;
 	}
 }
-
+/**
+ * Graphic Component used to display weight and Kcal burned after each sessions of the day
+ * @returns {React.Component}
+ */
 export default function Barchart() {
     const {id} = useParams()
     const activityData = useLoadActivityData(id)

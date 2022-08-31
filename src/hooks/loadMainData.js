@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { MyContext } from "../store/context";
 
 /**
- * Chargement des données principales
+ * Loading main data
  * @param {*} id 
  * @returns {{
      * loading : boolean,

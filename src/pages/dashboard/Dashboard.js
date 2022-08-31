@@ -19,7 +19,7 @@ import { useLoadMainData } from '../../hooks/loadMainData'
 import { cardDataTransform } from '../../transform/main'
 
 /**
- * Composant générant la page Dashboard
+ * Dashboard component
  * @returns {React.Component}
  */
 export default function Dashboard() {

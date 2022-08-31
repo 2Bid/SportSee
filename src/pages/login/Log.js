@@ -5,7 +5,7 @@ import logo from "../../images/logo.svg"
 import './log.css'
 
 /**
- * Composant générant la page Login
+ * Log Component
  * @returns {React.Component}
  */
 export default function Log() {

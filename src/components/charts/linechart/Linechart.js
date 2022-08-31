@@ -25,7 +25,7 @@ function CustomTooltip({ payload, active }) {
 }
 
 /**
- * Composant graphique servant a affiché les durée moyenne des sessions avec le nombre de kCal brûlées
+ * Graphic component used to display average length of sessions of the day
  * @returns {React.Component}
  */
 export default function Linechart() {

@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { MyContext } from "../store/context";
 
 /**
- * Chargement des données des sessions
+ * Loading sessions data
  * @param {*} id 
  * @returns {{
  * loading : boolean,

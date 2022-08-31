@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { MyContext } from "../store/context";
 
 /**
- * Chargement des données des activités
+ * Loading activity data
  * @param {*} id 
  * @returns {{
  * loading : boolean,

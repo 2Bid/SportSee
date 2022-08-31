@@ -7,7 +7,7 @@ import P404 from './pages/P404/P404';
 import './App.css';
 
 /**
- * Composant App au centre de l'application
+ * Main App component
  * @returns {React.Component}
  */
 function App() {
