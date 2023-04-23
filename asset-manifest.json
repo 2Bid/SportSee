@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/AxelSalenbier_12_24042022/static/css/main.157d6d5c.css",
-    "main.js": "/AxelSalenbier_12_24042022/static/js/main.e6985bf5.js",
-    "static/js/787.a8762e9d.chunk.js": "/AxelSalenbier_12_24042022/static/js/787.a8762e9d.chunk.js",
-    "static/media/logo.svg": "/AxelSalenbier_12_24042022/static/media/logo.91308fbcbce811907c09885e1241b59f.svg",
-    "static/media/swim.svg": "/AxelSalenbier_12_24042022/static/media/swim.b18477460c84b3f5bed718ed271ab224.svg",
-    "static/media/bike.svg": "/AxelSalenbier_12_24042022/static/media/bike.bafe49e6fda11005d281bbac39f6d976.svg",
-    "static/media/glucide.svg": "/AxelSalenbier_12_24042022/static/media/glucide.635d4b8bb7d8f64408ef3032c93ec526.svg",
-    "static/media/proteine.svg": "/AxelSalenbier_12_24042022/static/media/proteine.75051c1665b940bb3dc5f760ba41ff60.svg",
-    "static/media/zen.svg": "/AxelSalenbier_12_24042022/static/media/zen.902174480ad3248d93f0ee459533cc52.svg",
-    "static/media/Lipide.svg": "/AxelSalenbier_12_24042022/static/media/Lipide.27ce32674148dab385abc4be5a4fcec6.svg",
-    "static/media/calories.svg": "/AxelSalenbier_12_24042022/static/media/calories.b8c276e93e1df6b1691a9b5fe7fc5450.svg",
-    "index.html": "/AxelSalenbier_12_24042022/index.html",
-    "static/media/workout.svg": "/AxelSalenbier_12_24042022/static/media/workout.4fd7249abf4f773b92a2fa8722361dd7.svg",
-    "main.157d6d5c.css.map": "/AxelSalenbier_12_24042022/static/css/main.157d6d5c.css.map",
-    "main.e6985bf5.js.map": "/AxelSalenbier_12_24042022/static/js/main.e6985bf5.js.map",
-    "787.a8762e9d.chunk.js.map": "/AxelSalenbier_12_24042022/static/js/787.a8762e9d.chunk.js.map"
+    "main.css": "/SportSee/static/css/main.157d6d5c.css",
+    "main.js": "/SportSee/static/js/main.c91ad8c0.js",
+    "static/js/787.a8762e9d.chunk.js": "/SportSee/static/js/787.a8762e9d.chunk.js",
+    "static/media/logo.svg": "/SportSee/static/media/logo.91308fbcbce811907c09885e1241b59f.svg",
+    "static/media/swim.svg": "/SportSee/static/media/swim.b18477460c84b3f5bed718ed271ab224.svg",
+    "static/media/bike.svg": "/SportSee/static/media/bike.bafe49e6fda11005d281bbac39f6d976.svg",
+    "static/media/glucide.svg": "/SportSee/static/media/glucide.635d4b8bb7d8f64408ef3032c93ec526.svg",
+    "static/media/proteine.svg": "/SportSee/static/media/proteine.75051c1665b940bb3dc5f760ba41ff60.svg",
+    "static/media/zen.svg": "/SportSee/static/media/zen.902174480ad3248d93f0ee459533cc52.svg",
+    "static/media/Lipide.svg": "/SportSee/static/media/Lipide.27ce32674148dab385abc4be5a4fcec6.svg",
+    "static/media/calories.svg": "/SportSee/static/media/calories.b8c276e93e1df6b1691a9b5fe7fc5450.svg",
+    "index.html": "/SportSee/index.html",
+    "static/media/workout.svg": "/SportSee/static/media/workout.4fd7249abf4f773b92a2fa8722361dd7.svg",
+    "main.157d6d5c.css.map": "/SportSee/static/css/main.157d6d5c.css.map",
+    "main.c91ad8c0.js.map": "/SportSee/static/js/main.c91ad8c0.js.map",
+    "787.a8762e9d.chunk.js.map": "/SportSee/static/js/787.a8762e9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.157d6d5c.css",
-    "static/js/main.e6985bf5.js"
+    "static/js/main.c91ad8c0.js"
   ]
 }
